@@ -20,7 +20,7 @@ No separate application or account is required. Nothing is uploaded.
 Includes skills, quests, diaries, combat achievements, collection logs, items,
 observed charges, seed-vault contents, milestones, valuable drops and optional clan details.
 
-Files stay in `.runelite/plugin-data/turtle-data-export/`. They contain private
+Files stay in `.runelite/plugin-data/export-turtle/`. They contain private
 account data and are not encrypted. Disabling exports keeps existing files; delete them manually if needed.
 
 Charges retain confirmed checks alongside usage estimates for supported equipped weapons;

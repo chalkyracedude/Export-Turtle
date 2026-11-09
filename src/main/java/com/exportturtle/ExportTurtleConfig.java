@@ -9,6 +9,7 @@ import net.runelite.client.config.Range;
 @ConfigGroup(ExportTurtleConfig.GROUP)
 public interface ExportTurtleConfig extends Config
 {
+    // Preserve settings from development clients; the Plugin Hub ID is export-turtle.
     String GROUP = "turtle-data-export";
 
     @ConfigItem(keyName = "turtleCursor", name = "Soup Cursor", position = -1,

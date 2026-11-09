@@ -1,6 +1,6 @@
 # Export files
 
-Files stay in `.runelite/plugin-data/turtle-data-export/`. JSON uses
+Files stay in `.runelite/plugin-data/export-turtle/`. JSON uses
 `schemaVersion: 1` and character-name UUID filenames; see the snapshot model
 classes for individual fields.
 

@@ -50,7 +50,7 @@ import net.runelite.client.util.ImageUtil;
 import net.runelite.client.util.Text;
 
 @Slf4j
-@PluginDescriptor(name = "Export Turtle", internalName = ExportTurtleConfig.GROUP,
+@PluginDescriptor(name = "Export Turtle", internalName = "export-turtle",
     description = "Export account data, character portraits and saved poses to local files",
     tags = {"turtle", "export", "json", "portrait", "selfie"})
 public class ExportTurtlePlugin extends Plugin
