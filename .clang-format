@@ -1,0 +1,15 @@
+BasedOnStyle: LLVM
+Language: Java
+IndentWidth: 4
+ContinuationIndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 110
+BreakBeforeBraces: Allman
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+SortIncludes: true
+AlignAfterOpenBracket: DontAlign
+BreakAfterReturnType: None
+PenaltyReturnTypeOnItsOwnLine: 1000000

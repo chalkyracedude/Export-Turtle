@@ -1,0 +1,79 @@
+# Gradle caches and generated build outputs.
+.gradle/
+build/
+out/
+/bin/
+/target/
+/artifacts/
+/dist/
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local development tools and environments.
+.local/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# IDE and editor state.
+.idea/
+.vscode/
+.settings/
+.project
+.classpath
+*.iml
+nbactions.xml
+nb-configuration.xml
+nbproject/
+*.swp
+*.swo
+*~
+
+# Temporary files, logs, and JVM diagnostics.
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+*.log
+/.tmp/
+/.temp/
+/tmp/
+/temp/
+/*.zip
+/*.tar
+/*.tar.gz
+/*.tgz
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Machine-specific settings and secrets.
+.env
+.env.*
+!.env.example
+/local.properties
+/gradle.properties
+*.jks
+*.keystore
+*.p12
+*.pfx
+
+# Accidental local RuneLite data copies (keep resources and test fixtures tracked).
+/.runelite/
+/snapshots/
+/selfies/
+/poses/
+/collections/
+/items/
+/events/
+/diagnostics/
+
+# Operating-system metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Source, tests, documentation, assets, and the Gradle wrapper belong in Git.
